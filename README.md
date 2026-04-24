@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# ⚡ SnapCV — AI-Powered Premium Resume Suite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SnapCV is a state-of-the-art resume builder designed for the modern job seeker. Combining high-end aesthetics with cutting-edge AI insights, SnapCV helps you craft resumes that don't just look professional—they win interviews.
 
-## Available Scripts
+![SnapCV Preview](https://via.placeholder.com/1200x600?text=SnapCV+Premium+Interface)
 
-In the project directory, you can run:
+## ✨ Core Features
 
-### `npm start`
+### 📝 Smart Resume Builder
+*   **Real-time Preview:** See your changes instantly with our live rendering engine.
+*   **Dynamic Sections:** Seamlessly manage experience, education, skills, and projects.
+*   **Glassmorphic Design:** A premium, modern UI that makes resume building an enjoyable experience.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔥 Roast Mode (AI Powered)
+*   **Brutal Honesty:** Get critical, actionable feedback on your resume content.
+*   **AI Insights:** Powered by advanced language models to identify weak spots in your professional narrative.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 📊 ATS Checker
+*   **Optimization Score:** Get a real-time "Resume Completeness" and ATS compatibility score.
+*   **Keyword Analysis:** Ensure your resume passes through modern recruitment software.
 
-### `npm test`
+### 🔍 Job Analyzer
+*   **Role Alignment:** Compare your resume against specific job descriptions to see how well you match.
+*   **Gap Identification:** Find exactly what's missing from your profile for your dream role.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📥 Instant Premium PDF
+*   **One-Click Export:** High-quality PDF generation using `jspdf` and `html2canvas`.
+*   **Print-Ready:** Perfectly formatted layouts ready for submission.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 Design Philosophy
+SnapCV isn't just a tool; it's an experience. Built with a focus on **Visual Excellence**:
+*   **Mesh Gradients:** Dynamic, vibrant backgrounds that feel alive.
+*   **Glassmorphism:** Elegant use of transparency and blur effects.
+*   **Micro-animations:** Subtle transitions that provide delightful user feedback.
+*   **Modern Typography:** Using high-end font pairings for maximum readability.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+### Frontend
+*   **React 19:** Modern component-based architecture.
+*   **Vanilla CSS3:** Advanced styling with custom properties and animations.
+*   **jspdf & html2canvas:** Client-side document generation.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Backend (AI Proxy)
+*   **Node.js & Express:** Lightweight proxy for secure AI API communication.
+*   **Integrations:** Designed to work with Groq/Gemini for intelligent resume analysis.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 1. Clone the repository
+```bash
+git clone https://github.com/Shahazadi-Shaguftha-Syed/SnapCv.git
+cd snapcv
+```
 
-## Learn More
+### 2. Set up the Server
+```bash
+cd server
+npm install
+# Create a .env file with your API keys (GROQ_API_KEY, etc.)
+node index.js
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 3. Set up the Frontend
+```bash
+# In a new terminal, from the root directory
+npm install
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📸 Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Builder Interface | Roast Mode |
+| :--- | :--- |
+| ![Builder](https://via.placeholder.com/400x250?text=Premium+Builder) | ![Roast](https://via.placeholder.com/400x250?text=AI+Roast+Mode) |
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
+Contributions are welcome! Feel free to open an issue or submit a pull request.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
+This project is licensed under the ISC License.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Created with ❤️ by the SnapCV Team*
