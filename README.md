@@ -2,7 +2,6 @@
 
 SnapCV is a state-of-the-art resume builder designed for the modern job seeker. Combining high-end aesthetics with cutting-edge AI insights, SnapCV helps you craft resumes that don't just look professional—they win interviews.
 
-![SnapCV Preview](https://via.placeholder.com/1200x600?text=SnapCV+Premium+Interface)
 
 ## ✨ Core Features
 
@@ -10,6 +9,7 @@ SnapCV is a state-of-the-art resume builder designed for the modern job seeker. 
 *   **Real-time Preview:** See your changes instantly with our live rendering engine.
 *   **Dynamic Sections:** Seamlessly manage experience, education, skills, and projects.
 *   **Glassmorphic Design:** A premium, modern UI that makes resume building an enjoyable experience.
+
 
 ### 🔥 Roast Mode (AI Powered)
 *   **Brutal Honesty:** Get critical, actionable feedback on your resume content.
@@ -74,17 +74,11 @@ npm install
 npm start
 ```
 
----
-
-## 📸 Screenshots
-
-| Builder Interface | Roast Mode |
-| :--- | :--- |
-| ![Builder](https://via.placeholder.com/400x250?text=Premium+Builder) | ![Roast](https://via.placeholder.com/400x250?text=AI+Roast+Mode) |
 
 ---
 
 ## 🤝 Contributing
+
 Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
